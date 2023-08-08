@@ -1,0 +1,128 @@
+Q1. What is statistics?
+
+It is the science of collecting, organizing and analysing the data. 
+
+Q2. Define the different types of statistics and give an example of when each type might be used.
+
+Statistics can be broadly classified into two categories: - 
+1.	Descriptive statistics:- It is used to organise and summarise the data. Concepts like measures of central tendency and measures of dispersion are used to get insights and value data. 
+Eg: - If we have collected the data for the annual salary of employees in a company. Descriptive statistics will help to get the answers for a lot of questions such as: -
+(i)	What is the average salary?
+(ii)	What is the maximum and minimum salary?
+(iii)	Which bracket of salary is most often credited to employees?
+
+2.	Inferential statistics: - This is used to analyse a sample of data which we take from the population and we use some statistics in the sample data to infer about the whole population. Certain techniques such as F-test, T-test, P or significance values etc are used. 
+It can be used to analyse the exit polls during elections. 
+
+Q3. What are the different types of data and how do they differ from each other? Provide an example of each type of data.
+
+Data can be categorised into two types: -
+Quantative and Qualitative data.
+
+Quantative data can be further classified into: -
+1.	Discrete data: - It is when the variable takes whole number as values. It has a specific range. E.g.: - Number of family members, Experience years etc
+2.	Continuous data: - It is when the variable takes any value. Ther value can be decimals. Eg:- Height, weight etc
+Similarly, the qualitative data can be classified into: -
+1.	Nominal data: - The categorical data without any order or rank. Eg:- Gender, colour etc.
+2.	Ordinal data: - The categorical data with a proper rank or order. Eg:- Grades, Ratings etc.
+
+Q4. Categorise the following datasets with respect to quantitative and qualitative data types:
+(i) Grading in exam: A+, A, B+, B, C+, C, D, E – Qualitative data (Ordinal data)
+(ii) Colour of mangoes: yellow, green, orange, red – Qualitative data (Nominal data)
+(iii) Height data of a class: [178.9, 179, 179.5, 176, 177.2, 178.3, 175.8...]- Quantitative data (Continuous)
+(iv) Number of mangoes exported by a farm: [500, 600, 478, 672, ...] – Quantitative data (Discrete)
+
+Q5. Explain the concept of levels of measurement and give an example of a variable for each level.
+
+There are 4 scales of measurement of data: -
+(i)	Nominal scale data
+(ii)	Ordinal scale data
+(iii)	Interval scale data
+(iv)	Ratio scale data
+
+(i)	Nominal scale data: -
+a.	It is used for qualitative or categorical variables. 
+b.	Eg: - Gender, Lables etc
+c.	The order of the data doesn’t matter.
+Red 	Blue	Yellow
+5	3	2
+Let’s say the above table depicts a survey held to decide a colour for an app based on people’s preferences.
+5 people chose red, while 3 chose blue and 2 chose yellow. 
+Here the rank of the colours doesn’t matter.  We can analyse things like how much people chose red? Basically, the focus is more on the count or distribution. 
+
+(ii)	Ordinal scale data: - 
+a.	The rank and order of the data matters. 
+b.	The difference can’t be measured. 
+                            Qualification dataset: -
+Qualification	PhD	BE	Masters	B.com	B.Sc
+Rank	1	3	2	5	4
+
+Here the rank has been alotted to various qualifications as per the problem statement. But we can not calculate the exact difference between master’s and B.Sc. 
+
+(iii)	Interval scale data: -
+a.	The rank and order of the data matters. 
+b.	Difference can be measured in this case. 
+c.	Ratios cannot be measured.
+d.	It does not have zero starting value. 
+E.g.: - Temperature- [30F,60F,70F,80F]
+We can assign rank to these temperatures. However, we cannot calculate the ratio as it would not give any valuable information. If we take the ratio of 60F and 30F, we can not say one might feel double the intensity of temperature at 60F as compared to 30F.
+
+(iv)	Ratio scale data: -
+a.	The rank and order of the data mastters.
+b.	Both the differences and ratios of the data points can be measured. 
+c.	It has a ‘0’ starting point. 
+E.g.: - Grades- [100,89,90,50,32,12]
+The ratio can be calculated here and the difference as well. 
+If we take the ratio of the students who scored 100 and 50 resp. The ratio is 2:1. We can take the insight that the student who achieved 100 marks got twice of who scored 50. 
+
+Q6. Why is it important to understand the level of measurement when analysing data? Provide an example to illustrate your answer.
+
+As an analyst we have to deal with a variety of data. So in the stage of exploratory data analysis, one have to understand the nature of the data and used relevant scale of measurement for the better understanding and analysis. 
+
+Example: - If we are dealing with a dataset that requires you to analyse and give inights based on temperature. You need to understand that this data has no starting point, with no zero-starting point as the temp can also be negative to positive. This data has a proper order, and the difference can also be calculated. So, it is very important to understand that we need to use the interval measurement scale to analyse the data. 
+
+Q7. How nominal data type is different from ordinal data type.
+
+Nominal Data	Ordinal data
+This type of data doesn’t have any order or rank. We can not justify one value is greater or lesser than the other. 	The data have a proper rank or order. The values of the data can be compared according to the rank/order.
+Eg:- Gender, colour etc	Eg:- Grades, ratings etc
+
+Q8. Which type of plot can be used to display data in terms of range?
+
+Plots such as bar plot, pie chart, donut chart etc can be used to display data in terms of range. The data that has a specific range is discrete quantitative data. 
+
+Q9. Describe the difference between descriptive and inferential statistics. Give an example of each type of statistics and explain how they are used.
+
+Descriptive Statistics	Inferential Statistics
+It is used to organise and summarise the data. Concepts like measures of central tendency and measures of dispersion are used to get insights and value data. 
+Eg: - If we have collected the data for the annual salary of employees in a company.	This is used to analyse a sample of data which we take from the population, and we use some statistics in the sample data to infer about the whole population. Certain techniques such as F-test, T-test, P or significance values etc are used. 
+
+Descriptive statistics will help to get the answers for a lot of questions such as: -
+(i)	What is the average salary?
+(ii)	What is the maximum and minimum salary?
+(iii)	Which bracket of salary is most often credited to employees?
+	It can be used to analyse the exit polls during elections. 
+
+ 
+
+Q10. What are some common measures of central tendency and variability used in statistics? Explain how each measure can be used to describe a dataset.
+
+In statistics, measures of central tendency and variability are used to summarize and describe datasets. They provide essential insights into the typical values and the spread of data points within a dataset. Here are some common measures of central tendency and variability:
+I)	Measures of Central Tendency: 
+a. Mean: The mean is the most common measure of central tendency. It is calculated by summing all the data points and then dividing by the number of data points. The mean represents the average value of the dataset and is sensitive to extreme values or outliers. It is suitable for datasets with a symmetric distribution.
+
+b. Median: The median is the middle value of a dataset when it is sorted in ascending or descending order. If there is an even number of data points, the median is the average of the two middle values. The median is less affected by extreme values than the mean and is appropriate for datasets with skewed distributions or when there are outliers.
+
+d.	Mode: The mode represents the most frequently occurring value in the dataset. A dataset can have one mode (unimodal), two modes (bimodal), or more (multimodal). The mode is useful for categorical or discrete datasets, and it can also be used to describe the peak or most common values in a continuous dataset.
+
+II)	Measures of Variability:
+a. Range: The range is the simplest measure of variability and is calculated by subtracting the minimum value from the maximum value in the dataset. It provides an understanding of the spread of the entire dataset. However, the range is sensitive to outliers and may not be the most robust measure of variability.
+
+b. Variance: Variance is the average of the squared differences between each data point and the mean. It measures the spread of data points around the mean. Larger variance indicates greater dispersion. However, variance is influenced by the units of measurement and may not be easily interpretable.
+
+c. Standard Deviation: The standard deviation is the square root of the variance. It provides a more interpretable measure of spread, as it is in the same units as the original data. The standard deviation is widely used because it is easy to understand and gives a sense of how much individual data points deviate from the mean.
+
+d. Interquartile Range (IQR): The IQR is the range between the third quartile (Q3) and the first quartile (Q1) of the dataset. It provides a measure of spread that is less sensitive to extreme values or outliers compared to the range. It is useful for describing the central 50% of the data.
+
+These measures are essential tools for summarizing and understanding datasets in statistics, helping researchers and analysts gain insights into the central tendencies and variabilities of their data.
+
